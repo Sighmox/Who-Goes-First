@@ -40,7 +40,7 @@ class TeamPickerViewController: UIViewController {
             // randomizes the team names displayed
             let teams = [teamOne, teamTwo]
             let randomteam = teams.randomElement()
-            whoGoesFirst.text = randomteam
+            whoGoesFirst.text = "\(randomteam ?? "value not found") goes first! " 
             
             } else {
                 print("You must enter a team name into both textfields")
