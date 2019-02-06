@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		795F466F220504F700F6F356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F466E220504F700F6F356 /* AppDelegate.swift */; };
-		795F4671220504F700F6F356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F4670220504F700F6F356 /* ViewController.swift */; };
 		795F4674220504F700F6F356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F4672220504F700F6F356 /* Main.storyboard */; };
 		795F4676220504FA00F6F356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795F4675220504FA00F6F356 /* Assets.xcassets */; };
 		795F4679220504FA00F6F356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F4677220504FA00F6F356 /* LaunchScreen.storyboard */; };
 		795F4684220504FA00F6F356 /* Who_Goes_FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F4683220504FA00F6F356 /* Who_Goes_FirstTests.swift */; };
 		795F468F220504FA00F6F356 /* Who_Goes_FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F468E220504FA00F6F356 /* Who_Goes_FirstUITests.swift */; };
+		795F469D2209FD9400F6F356 /* TeamPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F469C2209FD9400F6F356 /* TeamPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		795F466B220504F700F6F356 /* Who Goes First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Goes First.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F466E220504F700F6F356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		795F4670220504F700F6F356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		795F4673220504F700F6F356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		795F4675220504FA00F6F356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795F4678220504FA00F6F356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		795F468A220504FA00F6F356 /* Who Goes FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who Goes FirstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F468E220504FA00F6F356 /* Who_Goes_FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Goes_FirstUITests.swift; sourceTree = "<group>"; };
 		795F4690220504FA00F6F356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795F469C2209FD9400F6F356 /* TeamPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				795F466E220504F700F6F356 /* AppDelegate.swift */,
-				795F4670220504F700F6F356 /* ViewController.swift */,
 				795F4672220504F700F6F356 /* Main.storyboard */,
+				795F469C2209FD9400F6F356 /* TeamPickerViewController.swift */,
 				795F4675220504FA00F6F356 /* Assets.xcassets */,
 				795F4677220504FA00F6F356 /* LaunchScreen.storyboard */,
 				795F467A220504FA00F6F356 /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795F4671220504F700F6F356 /* ViewController.swift in Sources */,
 				795F466F220504F700F6F356 /* AppDelegate.swift in Sources */,
+				795F469D2209FD9400F6F356 /* TeamPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
